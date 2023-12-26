@@ -1,23 +1,5 @@
-<?php
-
-namespace MatthiasMullie\PathConverter;
-
-/**
- * Don't convert paths.
- *
- * Please report bugs on https://github.com/matthiasmullie/path-converter/issues
- *
- * @author Matthias Mullie <pathconverter@mullie.eu>
- * @copyright Copyright (c) 2015, Matthias Mullie. All rights reserved
- * @license MIT License
- */
-class NoConverter implements ConverterInterface
-{
-    /**
-     * {@inheritdoc}
-     */
-    public function convert($path)
-    {
-        return $path;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;MatthiasMullie\PathConverter\ConverterInterface&quot; not found in C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\admin\optimizer\vendor\matthiasmullie\path-converter\src\NoConverter.php:14
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\admin\optimizer\vendor\matthiasmullie\path-converter\src\NoConverter.php</b> on line <b>14</b><br>

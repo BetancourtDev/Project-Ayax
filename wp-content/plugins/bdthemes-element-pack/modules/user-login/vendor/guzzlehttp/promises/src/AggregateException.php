@@ -1,16 +1,5 @@
-<?php
-namespace GuzzleHttp\Promise;
-
-/**
- * Exception thrown when too many errors occur in the some() or any() methods.
- */
-class AggregateException extends RejectionException
-{
-    public function __construct($msg, array $reasons)
-    {
-        parent::__construct(
-            $reasons,
-            sprintf('%s; %d rejected promises', $msg, count($reasons))
-        );
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;GuzzleHttp\Promise\RejectionException&quot; not found in C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\modules\user-login\vendor\guzzlehttp\promises\src\AggregateException.php:7
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\modules\user-login\vendor\guzzlehttp\promises\src\AggregateException.php</b> on line <b>7</b><br>

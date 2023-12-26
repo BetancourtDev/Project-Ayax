@@ -1,23 +1,5 @@
-<?php
-/**
- * Basic exception
- *
- * Please report bugs on https://github.com/matthiasmullie/minify/issues
- *
- * @author Matthias Mullie <minify@mullie.eu>
- * @copyright Copyright (c) 2012, Matthias Mullie. All rights reserved
- * @license MIT License
- */
-namespace MatthiasMullie\Minify\Exceptions;
-
-use MatthiasMullie\Minify\Exception;
-
-/**
- * Basic Exception Class
- *
- * @package Minify\Exception
- * @author Matthias Mullie <minify@mullie.eu>
- */
-abstract class BasicException extends Exception
-{
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;MatthiasMullie\Minify\Exception&quot; not found in C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\admin\optimizer\vendor\matthiasmullie\minify\src\Exceptions\BasicException.php:21
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\admin\optimizer\vendor\matthiasmullie\minify\src\Exceptions\BasicException.php</b> on line <b>21</b><br>

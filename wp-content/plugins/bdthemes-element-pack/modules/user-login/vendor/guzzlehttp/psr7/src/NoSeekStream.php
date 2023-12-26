@@ -1,22 +1,2 @@
-<?php
-namespace GuzzleHttp\Psr7;
-
-use Psr\Http\Message\StreamInterface;
-
-/**
- * Stream decorator that prevents a stream from being seeked
- */
-class NoSeekStream implements StreamInterface
-{
-    use StreamDecoratorTrait;
-
-    public function seek($offset, $whence = SEEK_SET)
-    {
-        throw new \RuntimeException('Cannot seek a NoSeekStream');
-    }
-
-    public function isSeekable()
-    {
-        return false;
-    }
-}
+<br>
+<b>Fatal error</b>:  Trait &quot;GuzzleHttp\Psr7\StreamDecoratorTrait&quot; not found in <b>C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\modules\user-login\vendor\guzzlehttp\psr7\src\NoSeekStream.php</b> on line <b>9</b><br>

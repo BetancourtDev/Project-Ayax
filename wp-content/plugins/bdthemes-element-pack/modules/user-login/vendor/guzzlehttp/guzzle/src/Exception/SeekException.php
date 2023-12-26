@@ -1,27 +1,5 @@
-<?php
-namespace GuzzleHttp\Exception;
-
-use Psr\Http\Message\StreamInterface;
-
-/**
- * Exception thrown when a seek fails on a stream.
- */
-class SeekException extends \RuntimeException implements GuzzleException
-{
-    private $stream;
-
-    public function __construct(StreamInterface $stream, $pos = 0, $msg = '')
-    {
-        $this->stream = $stream;
-        $msg = $msg ?: 'Could not seek the stream to position ' . $pos;
-        parent::__construct($msg);
-    }
-
-    /**
-     * @return StreamInterface
-     */
-    public function getStream()
-    {
-        return $this->stream;
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;GuzzleHttp\Exception\GuzzleException&quot; not found in C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\modules\user-login\vendor\guzzlehttp\guzzle\src\Exception\SeekException.php:9
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\Project-Ayax\wp-content\plugins\bdthemes-element-pack\modules\user-login\vendor\guzzlehttp\guzzle\src\Exception\SeekException.php</b> on line <b>9</b><br>
