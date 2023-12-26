@@ -21,7 +21,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', "project-ayax_db" );
+define( 'DB_NAME', "projectayax_db" );
 
 /** Database username */
 define( 'DB_USER', "root" );
